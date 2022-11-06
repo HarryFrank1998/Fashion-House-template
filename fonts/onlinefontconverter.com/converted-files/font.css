@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'IslandMoments-Regular';
+  src: url('IslandMoments-Regular.eot');
+  src: url('IslandMoments-Regular.eot?#iefix') format('embedded-opentype'),
+       url('IslandMoments-Regular.svg#IslandMoments-Regular') format('svg'),
+       url('IslandMoments-Regular.ttf') format('truetype'),
+       url('IslandMoments-Regular.woff') format('woff'),
+       url('IslandMoments-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
