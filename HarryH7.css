@@ -655,6 +655,131 @@ body {
 
 /*Bag section end*/
 
+/*Reviews section*/
+
+.reviews-section-title-wrapper {
+	padding: 0 37px 0 37px;
+}
+
+.reviews-section-title {
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 42px;
+	letter-spacing: -0.03em;
+	color: #000545;
+}
+
+.reviews-section-overflow {
+	overflow: auto;
+	width: 100%;
+}
+
+.reviews-section-name-box-container {
+	display: flex;
+	flex-direction: row;
+	gap: 14px;
+	align-items: center;
+	/*overflow: hidden;*/
+}
+
+.reviews-section-name-box {
+	width: 100%;
+	max-width: 301px;
+	min-width: 301px;
+	background-color: #E5E5E5;
+	border: 0.5px solid rgba(219, 179, 120, 0.4);
+	border-radius: 8.8px;
+}
+
+.reviews-section-img {
+	margin: 17px 100px 3px 90px;
+	border-radius: 50%;
+	max-width: 108px;
+	width: 100%;
+}
+
+.reviews-section-name {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	letter-spacing: -0.03em;
+	color: #000545;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.reviews-section-subname {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.03em;
+	color: #2945FF;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.reviews-section-text {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	color: #393F4D;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.reviews-section-button {
+	border: 1px solid #FFF;
+	border-radius: 60px;
+	width: 100%;
+	max-width: 246px;
+	height: 40px;
+	background-color: #E5E5E5;
+	color: #2945FF;
+	margin: 15px 26px 24px 27px;
+
+}
+
+@media (min-width:  726px) { 
+
+	.reviews-section-title-wrapper {
+		margin-bottom: 100px;
+		padding-left:  150px;
+	}
+
+	.reviews-section-name-box-container {
+	display: flex;
+	flex-direction: row;
+	gap: 44px;
+	align-items: center;
+	align-content: center;
+	/*overflow: hidden;*/
+	}
+
+	.reviews-section-name-box {
+	width: 466px;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	justify-content: center;
+	}
+
+	.reviews-section-img {
+		margin-left: 100px;
+	}
+
+	.reviews-section-button {
+		margin: 20px auto;
+		border: 0.7px solid #393F4D;
+		width: 100%;
+		max-width: 208px;
+	}
+}
+
+/*Reviews section END*/
+
 /*Image section */
 
 .total-container {
@@ -808,6 +933,8 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	justify-items: center;
+	align-items: center;
 	gap:  15px;
 }
 
@@ -884,6 +1011,10 @@ body {
 
 	.hermes-bag {
 		width: 100%;
+	}
+
+	.adidas {
+		width: 186px;
 	}
 
 }
