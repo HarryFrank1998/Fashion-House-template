@@ -13,6 +13,103 @@ body {
 	--accent: #2945FF;
 }
 
+/*Header section*/
+
+.header-title-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 30px;
+	margin-left: 30px;
+	width: 100%;
+	max-width: 400px;
+}
+
+.navbar {
+	display: none;
+}
+
+.burger-menu {
+	color: #2945FF;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+.header-title::after {
+	content: "";
+	width: 21px;
+	height: 4px;
+	background-color: #2945FF;
+	position: absolute;
+	margin: 32px 0 0 5px;
+	border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+	
+	.header-wrapper {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	max-width: 1400px;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-left: 120px;
+	padding-top: 30px;
+	}
+
+	.header-title {
+	font-weight: 600;
+	font-size: 26.4043px;
+	line-height: 100%;
+	letter-spacing: -0.03em;
+	color: #000000;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	}
+
+	.header-title::after {
+		margin: 25px 0 0 190px;
+	}
+
+	.burger-menu {
+		display: none;
+	}
+
+	.navbar {
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+		margin-top: 30px;
+		/*max-width: 600px;*/
+		width: 100%;
+	}
+
+	.navbar-link {
+		text-decoration: none;
+		padding: 30px;
+
+		align-items: flex-end;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 100%;
+		color: #000;
+	}
+
+	.navbar-link:hover {
+		background-color: #2945FF;
+		color: #FFF;
+		border-radius: 24px;
+		align-items: center;
+		padding: 14px 24px;
+		width: 114px;
+		height: 43px;
+	}
+}
+
+/*Header section END*/
+
 /*Fashion fits from the big brands section*/
 
 .girl-image-container {
@@ -244,7 +341,6 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: left;
-		margin-left: ;
 	}
 
 	.latest-updates-section-div {
@@ -686,5 +782,110 @@ body {
 	    right: -38px;
 	    z-index: -1;
 	}
+}
 
 /*Image section end*/
+
+/*Brands section*/
+
+.brands-section-wrapper{
+	width: 100%;
+	max-width: 400px;
+	/*padding: 55px 25px 55px 25px;*/
+}
+
+.brand-section-title-container {
+	padding: 0 23px 30px 23px;
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 42px;
+	letter-spacing: -0.03em;
+	color: #000545;
+}
+
+.brand-logos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap:  15px;
+}
+
+.brand-image {
+	width: 160px;
+	height: 90px;
+	border: 1px solid #000;
+	border-radius: 24px;
+	background-color: #FFF;
+	padding: 10px 39px;
+}
+
+.hermes {
+	padding-left: 0;
+	padding-top: 0;
+}
+
+.adidas {
+	padding-top: 20px;
+}
+
+.nike {
+	padding-top: 20px;
+}
+
+.gucci {
+	padding-left: 45px;
+}
+
+.louis {
+	filter: grayscale(0);
+}
+
+@media (min-width:  726px) {
+
+	.brands-section-wrapper{
+		max-width: 1142px;
+		margin: 0 auto;
+	}
+	.brands-section-wrapper {
+		
+	}
+
+	.brand-section-title-container {
+		width: 100%;
+		max-width: 500px;
+		font-size: 51px;
+		line-height: 77px;
+	}
+
+	.brand-logos {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap:  15px;
+		margin: 0 auto;
+		}	
+
+	.brand-image {
+		width: 360px;
+		height: 222px;
+		border: 1px solid #000;
+		border-radius: 24px;
+		background-color: #FFF;
+		padding: 10px 39px;
+
+		}
+
+	.brand-image:hover {
+		background-color: #2945FF;
+		border: none;
+		}
+
+	.hermes-bag {
+		width: 100%;
+	}
+
+}
+
+/*Brands section END*/
