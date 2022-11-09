@@ -13,6 +13,18 @@ body {
 	--accent: #2945FF;
 }
 
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.col {
+	width: 33.33%;
+	padding: 12px 8px;
+}
+
 /*Header section*/
 
 .header-title-wrapper {
@@ -939,33 +951,15 @@ body {
 }
 
 .brand-image {
-	width: 160px;
+	width: 100%;
 	height: 90px;
 	border: 1px solid #000;
 	border-radius: 24px;
 	background-color: #FFF;
 	padding: 10px 39px;
-}
-
-.hermes {
-	padding-left: 0;
-	padding-top: 0;
-}
-
-.adidas {
-	padding-top: 20px;
-}
-
-.nike {
-	padding-top: 20px;
-}
-
-.gucci {
-	padding-left: 45px;
-}
-
-.louis {
-	filter: grayscale(0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (min-width:  726px) {
@@ -995,8 +989,8 @@ body {
 		}	
 
 	.brand-image {
-		width: 360px;
-		height: 222px;
+		width: 100%;
+		height: 200px;
 		border: 1px solid #000;
 		border-radius: 24px;
 		background-color: #FFF;
@@ -1007,14 +1001,6 @@ body {
 	.brand-image:hover {
 		background-color: #2945FF;
 		border: none;
-		}
-
-	.hermes-bag {
-		width: 100%;
-	}
-
-	.adidas {
-		width: 186px;
 	}
 
 }
