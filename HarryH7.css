@@ -928,7 +928,7 @@ body {
 .brands-section-wrapper{
 	width: 100%;
 	max-width: 400px;
-	/*padding: 55px 25px 55px 25px;*/
+	padding: 0 23px 50px 23px;
 }
 
 .brand-section-title-container {
@@ -1006,3 +1006,272 @@ body {
 }
 
 /*Brands section END*/
+
+/*Fashion news section*/
+
+.fashion-news-section-wrapper {
+	padding: 100px 23px 50px 23px;
+}
+
+.fashion-news-title-container {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	align-content: left;
+}
+
+.fashion-news-title{
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 38px;
+	letter-spacing: -0.03em;
+	color: #000545;
+	max-width: 500px;
+	width: 100%;
+}
+
+.fashion-news-paragraph {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: -0.03em;
+	color: #393F4D;
+	max-width: 500px;
+	width: 100%;
+}
+
+.fashion-news-cta {
+	display: none;
+}
+
+.fashion-news-image-container {
+	width: 100%;
+	max-width: 500px;
+	position: relative;
+	margin-top: 24px;
+	margin-left: 34px;
+
+}
+
+.fashion-news-img {
+	width: 100%;
+	max-width: 500px;
+}
+
+.fashion-news-dot {
+	position: absolute;
+	top: -30px;
+	left: -50px;
+	z-index: -1;
+}
+
+.fashion-news-line {
+	border: 1px solid #E2E2E2;
+	width: 100%;
+	max-width: 301px;
+	margin-top: 44px;
+}
+
+.minimize-img {
+	margin-top: 30px;
+	margin-left: 37px;
+	display: block;
+}
+
+.fashion-news-second-title {
+	display: block;
+	width: 100%;
+	max-width: 224px;
+	margin-left: 116px;
+	margin-top: -45px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.03em;
+	color: #000000;
+}
+
+.fashion-news-second-paragraph {
+	width: 100%;
+	max-width: 224px;
+	margin-left: 116px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.03em;
+	color: #393F4D;
+}
+
+.second-line {
+	margin-left: 30px;
+}
+
+.expand-img {
+	margin-top:  30px;
+	margin-left: 37px;
+}
+
+@media (min-width:  726px) {
+
+	.fashion-news-title-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.fashion-news-title {
+		max-width: 568px;
+	}
+
+	.fashion-news-paragraph {
+		max-width: 720px;
+	}
+
+	.fashion-news-cta {
+	display: block;
+	margin-left: 120px;
+	}
+
+	.fashion-news-body-wrapper {
+		display: flex;
+		flex-direction: row;
+		margin-top: 87px;
+		margin-left: 153px;
+	} 
+
+	.fashion-news-info-container {
+		margin-left: 112px;
+	}
+
+	.fashion-news-line {
+		max-width: 438px;
+	}
+
+	.second-line {
+		max-width: 438px;
+	}
+
+}
+
+/*Fashion news section END*/
+
+/*Numbers Section*/
+
+.number-section-wrapper {
+	padding: 100px 23px 50px 23px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
+}
+
+.number-section-icons {
+	margin-top: 70px;
+}
+
+.number-section-title {
+	font-weight: 600;
+	font-size: 68px;
+	letter-spacing: -0.03em;
+	color: #000545;
+	margin: 0;
+}
+
+.number-section-subtitle {
+	font-weight: 600;
+	font-size: 18px;
+	letter-spacing: -0.03em;
+	color: #2945FF;
+	margin-bottom: 0;
+}
+
+.number-section-paragraph {
+	font-size: 16px;
+	margin-top: 0;
+}
+
+@media (min-width:  726px) {
+
+	.number-section-wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.number-section-block {
+		width: 24%;
+	}
+
+}
+
+/*Numbers Section END*/
+
+/*Footer section*/
+
+.footer-section-wrapper{
+	padding: 100px 23px 50px 23px;
+}
+
+.footer-links-first {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.footer-links-second {
+		display: flex;
+		flex-direction: row;
+		margin-top: 50px;
+}
+
+.footer-link-container {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.footer-title{
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000545;
+}
+
+.footer-links {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #000545;
+	text-decoration: none;
+	margin-top: 11px;
+}
+
+.footer-closing {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+@media (min-width:  726px) {
+
+	.footer-section-wrapper {
+		display: flex;
+		flex-direction: row;
+		
+	}
+
+	.footer-links-first {
+	display: block;
+	}
+
+	.footer-links-second {
+			display: block;
+			margin-top: 50px;
+	}
+
+}
+
+/*Footer section END*/
