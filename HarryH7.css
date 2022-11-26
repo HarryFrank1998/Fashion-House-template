@@ -1275,3 +1275,60 @@ body {
 }
 
 /*Footer section END*/
+
+/*Contact us Page*/
+
+.contact-form {
+	width: 100%;
+	max-width: 800px;
+	margin:  0 auto;
+	padding: 30px;
+}
+
+.contact-us-image {
+	height:	400px ;
+	object-fit: contain;
+}
+
+.input {
+	border: 1px solid #bbb8b8;
+	padding: 10px 20px;
+	border-radius: 8px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.input:focus {
+	outline-color: #2945FF;
+}
+
+.input:focus + .label {
+	color: black;
+	transform: translateY(-10px) scale(0.8);
+	background-color: #FFF;
+
+}
+
+.label {
+	position: absolute;
+	left: 20px;
+	transform: translateY(7px);
+	/*transform: translateY(-50%);*/
+	color: #bbb8b8;
+	transition: all 0.3s;
+	padding: 3px 5px;
+}
+
+.input-control {
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.form-row {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 30px;
+	}
+}
+
+/*Contact us Page END*/
